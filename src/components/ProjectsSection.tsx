@@ -7,6 +7,15 @@ const ProjectsSection = () => {
 
   const projects = [
     {
+      title: "Event Guidance and Inventory Management",
+      description: "A comprehensive event planning platform designed for event planners to track events, manage inventory, and handle budget cost management. Features real-time tracking, resource allocation, and financial oversight for seamless event coordination.",
+      image: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=500&h=300&fit=crop",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
+      category: "Full Stack",
+      liveLink: "#",
+      githubLink: "#"
+    },
+    {
       title: "CryptoScan - Crypto Exchange Platform",
       description: "A secure and user-friendly cryptocurrency exchange site offering real-time market data, interactive charts, and intuitive trading features. Built with a full-stack MERN architecture.",
       image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=500&h=300&fit=crop",
@@ -37,14 +46,14 @@ const ProjectsSection = () => {
       title: "Sales Dashboard",
       description: "A fully interactive dashboard showcasing sales KPIs, trends, and revenue stats using Power BI and Python for data processing and visualization.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      technologies: ["Power BI", "Python", "Pandas", "Excel"],
-      category: "Data Analytics",
+      technologies: ["Python", "Power BI", "Pandas", "Matplotlib", "NumPy"],
+      category: "Python",
       liveLink: "#",
       githubLink: "#"
     }
   ];
 
-  const filters = ['All', 'Full Stack', 'Frontend', 'Data Analytics'];
+  const filters = ['All', 'Full Stack', 'Frontend', 'Python'];
 
   const filteredProjects = activeFilter === 'All' 
     ? projects 
