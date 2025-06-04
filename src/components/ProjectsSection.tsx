@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 
@@ -50,10 +49,19 @@ const ProjectsSection = () => {
       category: "Python",
       liveLink: "#",
       githubLink: "#"
+    },
+    {
+      title: "Sales Dashboard",
+      description: "A fully interactive dashboard showcasing sales KPIs, trends, and revenue stats using Power BI and Excel for comprehensive data analysis and business intelligence.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      technologies: ["Power BI", "Excel", "DAX", "SQL", "Data Modeling"],
+      category: "Data Analytics",
+      liveLink: "#",
+      githubLink: "#"
     }
   ];
 
-  const filters = ['All', 'Full Stack', 'Frontend', 'Python'];
+  const filters = ['All', 'Full Stack', 'Frontend', 'Python', 'Data Analytics'];
 
   const filteredProjects = activeFilter === 'All' 
     ? projects 
