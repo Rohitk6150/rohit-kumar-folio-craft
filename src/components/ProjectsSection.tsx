@@ -51,6 +51,15 @@ const ProjectsSection = () => {
       githubLink: "#"
     },
     {
+      title: "Caesar Cipher",
+      description: "A cryptography Python project focused on data security using Caesar cipher encryption and decryption techniques. Features both CLI and GUI interfaces for secure message encoding with customizable shift values.",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop",
+      technologies: ["Python", "Tkinter", "Cryptography", "GUI Development"],
+      category: "Python",
+      liveLink: "#",
+      githubLink: "#"
+    },
+    {
       title: "Sales Dashboard",
       description: "A fully interactive dashboard showcasing sales KPIs, trends, and revenue stats using Power BI and Excel for comprehensive data analysis and business intelligence.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
