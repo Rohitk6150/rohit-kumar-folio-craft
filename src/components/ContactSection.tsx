@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, ExternalLink, Code2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const ContactSection = () => {
@@ -82,6 +82,11 @@ const ContactSection = () => {
       icon: <ExternalLink className="w-5 h-5" />,
       label: "LeetCode",
       url: "https://leetcode.com/u/rohitk6150"
+    },
+    {
+      icon: <Code2 className="w-5 h-5" />,
+      label: "Coding Ninjas",
+      url: "https://www.codingninjas.com/studio/profile/rohitk6150"
     }
   ];
 

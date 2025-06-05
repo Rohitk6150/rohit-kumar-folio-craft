@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, ExternalLink, Heart } from 'lucide-react';
+import { Github, Linkedin, ExternalLink, Heart, Code2 } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -68,6 +68,14 @@ const Footer = () => {
                 className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200 transform hover:scale-105"
               >
                 <ExternalLink size={20} />
+              </a>
+              <a
+                href="https://www.codingninjas.com/studio/profile/rohitk6150"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200 transform hover:scale-105"
+              >
+                <Code2 size={20} />
               </a>
             </div>
             <p className="text-slate-400 text-sm">

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, ExternalLink } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, ExternalLink, Code2 } from 'lucide-react';
 
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="flex items-center justify-center space-x-6 animate-fade-in animation-delay-3000">
+        <div className="flex items-center justify-center space-x-6 animate-fade-in animation-delay-3000 relative">
           <a
             href="https://github.com/Rohitk6150"
             target="_blank"
@@ -86,10 +86,19 @@ const HeroSection = () => {
           >
             <ExternalLink size={24} />
           </a>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown size={32} className="text-slate-400" />
+          <a
+            href="https://www.codingninjas.com/studio/profile/rohitk6150"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 transition-all duration-200 transform hover:scale-110"
+          >
+            <Code2 size={24} />
+          </a>
+          
+          {/* Bounce arrow positioned above LinkedIn icon */}
+          <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <ChevronDown size={32} className="text-slate-400" />
+          </div>
         </div>
       </div>
     </section>
