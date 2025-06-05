@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Award, Trophy, Target, Users } from 'lucide-react';
+import { Award, Trophy, Target, Users, BookOpen, Camera } from 'lucide-react';
 
 const AboutSection = () => {
   const achievements = [
@@ -23,6 +23,16 @@ const AboutSection = () => {
       icon: <Users className="w-6 h-6" />,
       title: "Team Collaboration",
       description: "Strong communication and adaptability skills"
+    },
+    {
+      icon: <BookOpen className="w-6 h-6" />,
+      title: "Creative Writer & Poet",
+      description: "Passionate about poetry, creative writing, and book reading"
+    },
+    {
+      icon: <Camera className="w-6 h-6" />,
+      title: "Photography Enthusiast",
+      description: "Capturing moments and exploring visual storytelling through photography"
     }
   ];
 

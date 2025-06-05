@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, ExternalLink, Heart, Code2 } from 'lucide-react';
+import { Github, Linkedin, Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -67,7 +67,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200 transform hover:scale-105"
               >
-                <ExternalLink size={20} />
+                <img src="/lovable-uploads/2d53488d-2c3e-499e-b4c7-74286fada834.png" alt="LeetCode" className="w-5 h-5" />
               </a>
               <a
                 href="https://www.codingninjas.com/studio/profile/rohitk6150"
@@ -75,7 +75,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200 transform hover:scale-105"
               >
-                <Code2 size={20} />
+                <img src="/lovable-uploads/b8c9063e-b737-40cf-b8e9-fa4ebb7b992e.png" alt="Coding Ninjas" className="w-5 h-5" />
               </a>
             </div>
             <p className="text-slate-400 text-sm">
