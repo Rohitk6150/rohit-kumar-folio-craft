@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, ExternalLink, Code2 } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, ExternalLink, BookOpen, Camera } from 'lucide-react';
 
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
@@ -46,6 +46,24 @@ const HeroSection = () => {
           Passionate about crafting beautiful and functional websites. I specialize in modern JavaScript stacks and love bringing digital ideas to life.
         </p>
 
+        {/* Highlights/Achievements Section */}
+        <div className="mb-8 animate-fade-in animation-delay-1500">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm sm:text-base">
+            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
+              <BookOpen size={16} className="text-blue-600" />
+              <span className="text-slate-700 dark:text-slate-300">Poet & Writer</span>
+            </div>
+            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
+              <Camera size={16} className="text-teal-600" />
+              <span className="text-slate-700 dark:text-slate-300">Photography Enthusiast</span>
+            </div>
+            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+              <span className="text-slate-700 dark:text-slate-300">Problem Solver</span>
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in animation-delay-2000">
           <a
             href="#projects"
@@ -86,16 +104,8 @@ const HeroSection = () => {
           >
             <ExternalLink size={24} />
           </a>
-          <a
-            href="https://www.codingninjas.com/studio/profile/rohitk6150"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 transition-all duration-200 transform hover:scale-110"
-          >
-            <Code2 size={24} />
-          </a>
           
-          {/* Bounce arrow positioned above LinkedIn icon */}
+          {/* Bounce arrow positioned below social icons */}
           <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce">
             <ChevronDown size={32} className="text-slate-400" />
           </div>
