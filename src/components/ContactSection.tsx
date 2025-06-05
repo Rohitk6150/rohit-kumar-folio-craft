@@ -64,7 +64,7 @@ const ContactSection = () => {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
       value: "Rupnagar, Punjab, India",
-      link: "#"
+      link: "https://www.google.co.in/maps/place/Rupnagar,+Punjab+140001/@30.9626239,76.4834679,13z/data=!3m1!4b1!4m6!3m5!1s0x390555b542ad06ab:0x6489ccba3c7f2fa7!8m2!3d30.9661003!4d76.5230961!16zL20vMDl0enM1?entry=ttu&g_ep=EgoyMDI1MDYwMy4wIKXMDSoASAFQAw%3D%3D"
     }
   ];
 

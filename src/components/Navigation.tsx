@@ -56,7 +56,7 @@ const Navigation = () => {
             </button>
 
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/13-kPW5HosdFhTCyk1eL0KJvqmuJYluL4/view?usp=drive_link"
               download
               className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all duration-200 font-medium"
             >
@@ -96,7 +96,7 @@ const Navigation = () => {
                   {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
                 </button>
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/13-kPW5HosdFhTCyk1eL0KJvqmuJYluL4/view?usp=drive_link"
                   download
                   className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-teal-600 text-white px-4 py-2 rounded-lg"
                 >

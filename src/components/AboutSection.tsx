@@ -28,11 +28,6 @@ const AboutSection = () => {
       icon: <BookOpen className="w-6 h-6" />,
       title: "Creative Writer & Poet",
       description: "Passionate about poetry, creative writing, and book reading"
-    },
-    {
-      icon: <Camera className="w-6 h-6" />,
-      title: "Photography Enthusiast",
-      description: "Capturing moments and exploring visual storytelling through photography"
     }
   ];
 
@@ -73,17 +68,17 @@ const AboutSection = () => {
                     B.Tech - Computer Science & Engineering
                   </h5>
                   <p className="text-slate-600 dark:text-slate-400 text-sm">
-                    Chandigarh Engineering College | 2021-2025 | CGPA: 7.26
+                    Chandigarh Engineering College | 2021-2025 |<strong> CGPA : 7.62</strong>
                   </p>
                 </div>
                 <div>
                   <h5 className="font-medium text-slate-800 dark:text-slate-200">
-                    12th - CBSE (2021): 72%
+                    12th - CBSE (2021) : 72%
                   </h5>
                 </div>
                 <div>
                   <h5 className="font-medium text-slate-800 dark:text-slate-200">
-                    10th - CBSE (2019): 81.4%
+                    10th - CBSE (2019) : 81.4%
                   </h5>
                 </div>
               </div>

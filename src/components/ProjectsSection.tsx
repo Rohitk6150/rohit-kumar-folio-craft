@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
       category: "Full Stack",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Rohitk6150/Event-Guidance-and-Inventory"
     },
     {
       title: "CryptoScan - Crypto Exchange Platform",
@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express", "WebSocket"],
       category: "Full Stack",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Rohitk6150/CryptoScan"
     },
     {
       title: "Myntra Clone",
@@ -29,8 +29,8 @@ const ProjectsSection = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
       technologies: ["React", "Redux", "CSS", "JavaScript"],
       category: "Frontend",
-      liveLink: "#",
-      githubLink: "#"
+      liveLink: "https://shiny-zabaione-ecc038.netlify.app/",
+      githubLink: "https://github.com/Rohitk6150/Myntra-clone"
     },
     {
       title: "Blogging Social Media App",
@@ -38,18 +38,10 @@ const ProjectsSection = () => {
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
       technologies: ["HTML", "CSS", "JavaScript", "Local Storage"],
       category: "Frontend",
-      liveLink: "#",
-      githubLink: "#"
+      liveLink: "https://rohitk6150-social-media.netlify.app/",
+      githubLink: "https://github.com/Rohitk6150/Social-media"
     },
-    {
-      title: "Sales Dashboard",
-      description: "A fully interactive dashboard showcasing sales KPIs, trends, and revenue stats using Power BI and Python for data processing and visualization.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      technologies: ["Python", "Power BI", "Pandas", "Matplotlib", "NumPy"],
-      category: "Python",
-      liveLink: "#",
-      githubLink: "#"
-    },
+    
     {
       title: "Caesar Cipher",
       description: "A cryptography Python project focused on data security using Caesar cipher encryption and decryption techniques. Features both CLI and GUI interfaces for secure message encoding with customizable shift values.",
@@ -57,7 +49,7 @@ const ProjectsSection = () => {
       technologies: ["Python", "Tkinter", "Cryptography", "GUI Development"],
       category: "Python",
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://github.com/Rohitk6150/Caesar-cipher"
     },
     {
       title: "Sales Dashboard",

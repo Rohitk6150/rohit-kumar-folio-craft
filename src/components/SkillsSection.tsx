@@ -12,6 +12,7 @@ const SkillsSection = () => {
         { name: "React.js", level: 88 },
         { name: "Bootstrap", level: 85 },
         { name: "SASS", level: 80 }
+
       ]
     },
     {
@@ -28,11 +29,12 @@ const SkillsSection = () => {
     {
       title: "Languages",
       skills: [
-        { name: "Core Java", level: 80 },
         { name: "C", level: 75 },
-        { name: "C++", level: 78 },
-        { name: "Python", level: 70 },
+        { name: "C++", level: 82 },
+        { name: "Python", level: 80 },
+        { name: "Core Java", level: 62 },
         { name: "Redux Toolkit", level: 75 }
+
       ]
     },
     {
@@ -49,7 +51,7 @@ const SkillsSection = () => {
 
   const softSkills = [
     "Problem-solving", "Adaptability", "Time Management", 
-    "Team Collaboration", "Clear Communication", "Leadership"
+    "Team Collaboration", "Clear Communication", "Leadership","Critical Thinking"
   ];
 
   return (

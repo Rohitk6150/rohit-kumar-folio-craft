@@ -37,7 +37,7 @@ const HeroSection = () => {
           <div className="h-16 flex items-center justify-center">
             <p className="text-xl sm:text-2xl text-slate-600 dark:text-slate-300 font-medium">
               {displayText}
-              <span className="animate-pulse">|</span>
+              <span className="animate-pulse"> </span>
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="flex items-center justify-center space-x-6 animate-fade-in animation-delay-3000 relative">
+        <div className="flex items-center justify-center space-x-6 animate-fade-in animation-delay-3000">
           <a
             href="https://github.com/Rohitk6150"
             target="_blank"
@@ -86,11 +86,10 @@ const HeroSection = () => {
           >
             <ExternalLink size={24} />
           </a>
-          
-          {/* Bounce arrow positioned below social icons */}
-          <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown size={32} className="text-slate-400" />
-          </div>
+        </div>
+
+        <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 animate-bounce relative">
+          <ChevronDown size={32} className="text-slate-400" />
         </div>
       </div>
     </section>
