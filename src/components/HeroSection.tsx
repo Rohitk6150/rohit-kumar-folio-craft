@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, ExternalLink, BookOpen, Camera } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, ExternalLink } from 'lucide-react';
 
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
@@ -45,24 +45,6 @@ const HeroSection = () => {
         <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto animate-fade-in animation-delay-1000">
           Passionate about crafting beautiful and functional websites. I specialize in modern JavaScript stacks and love bringing digital ideas to life.
         </p>
-
-        {/* Highlights/Achievements Section */}
-        <div className="mb-8 animate-fade-in animation-delay-1500">
-          <div className="flex flex-wrap items-center justify-center gap-4 text-sm sm:text-base">
-            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
-              <BookOpen size={16} className="text-blue-600" />
-              <span className="text-slate-700 dark:text-slate-300">Poet & Writer</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
-              <Camera size={16} className="text-teal-600" />
-              <span className="text-slate-700 dark:text-slate-300">Photography Enthusiast</span>
-            </div>
-            <div className="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 px-4 py-2 rounded-full">
-              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-              <span className="text-slate-700 dark:text-slate-300">Problem Solver</span>
-            </div>
-          </div>
-        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in animation-delay-2000">
           <a
