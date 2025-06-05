@@ -30,25 +30,17 @@ const ContactSection = () => {
       return;
     }
 
-    // WhatsApp message formatting
-    const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Subject:* ${formData.subject}%0A*Message:* ${formData.message}`;
-    const whatsappNumber = "919056350089"; // Your WhatsApp number
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
-
     // Email formatting
     const emailSubject = `Portfolio Contact: ${formData.subject}`;
     const emailBody = `Name: ${formData.name}%0AEmail: ${formData.email}%0ASubject: ${formData.subject}%0A%0AMessage:%0A${formData.message}`;
     const emailUrl = `mailto:rkumar.kumar899@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 
-    // Open both WhatsApp and Email
-    window.open(whatsappUrl, '_blank');
-    setTimeout(() => {
-      window.open(emailUrl, '_blank');
-    }, 1000);
+    // Open email client
+    window.open(emailUrl, '_blank');
 
     toast({
       title: "Message Sent!",
-      description: "Your message has been forwarded to WhatsApp and Email. I'll get back to you soon!",
+      description: "Your message has been prepared for email. I'll get back to you soon!",
     });
     
     setFormData({ name: '', email: '', subject: '', message: '' });
