@@ -1,20 +1,52 @@
-# Welcome to your Lovable project
+# 💼 Personal Portfolio Website
 
-## Project info
+Welcome to my personal **developer portfolio website**! This project is designed to showcase my professional skills, technical expertise, and featured projects using a clean and modern interface. Built with **TypeScript**, **HTML**, **CSS**, and **JavaScript**, the portfolio is fully responsive and optimized for all devices.
 
-**URL**: https://lovable.dev/projects/002e9877-fcc2-4067-877a-2b18e47fe8d6
+---
 
-## How can I edit this code?
+## 🔗 Live Demo
 
-There are several ways of editing your application.
+🌐 **Website:** [https://rohitk6150.github.io/portfolio](https://portfoliorohitk6150.netlify.app/)  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/002e9877-fcc2-4067-877a-2b18e47fe8d6) and start prompting.
+## 📌 Table of Contents
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Setup & Installation](#setup--installation)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Contact](#contact)
 
-**Use your preferred IDE**
+---
+
+## ✨ Features
+
+- 💻 Modern, responsive design using CSS Grid and Flexbox
+- 🧠 Highlighted technical skills & tools
+- 📁 Dynamic project section with hover animations
+- 🧑‍💼 About Me with background & career info
+- 📜 Resume download and PDF view option
+- 📬 Contact form (EmailJS integration or mailto)
+- 🌙 Optional: Dark mode toggle (can be added)
+- ⚡️ Fast loading and accessible
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+), TypeScript
+- **Styling**: CSS custom properties, animations, media queries, shadcn-ui
+- **Icons**: Font Awesome, custom SVGs, Tailwind CSS
+- **Version Control**: Git + GitHub
+- **Deployment**: GitHub Pages / Netlify / Vercel
+
+---
+
+## ⚙️ Setup & Installation
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
@@ -36,38 +68,4 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/002e9877-fcc2-4067-877a-2b18e47fe8d6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
